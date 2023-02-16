@@ -1,0 +1,229 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.app{
+    display: flex;
+    flex-direction: column;
+}
+.app-a{
+    position:fixed;
+    width:100%;
+}
+.header{
+    background-color: white;
+    display:flex;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+   font-size:1rem;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+}
+.header-icon{
+    width:80px;
+}
+.header-title{
+    margin-right:auto;
+}
+.header-p{
+    margin-right:20px;
+    cursor: pointer;
+    text-decoration: none;
+    color:gray;
+}
+.header-avatar{
+    margin-right:20px;
+    cursor: pointer;
+}
+
+.body{
+    padding-top:90px;
+}
+.nav-link-style{
+    text-decoration: none;
+    color:black;
+}
+.header-p.active{
+    color:black;
+    font-weight:bold;
+}
+.add-type-a{
+    display:flex;
+}
+.add-type-input{
+    width:250px;
+    padding-right:20px;
+}
+.add-type-b{
+    margin-top:20px;
+}
+.add-type-title{
+    color:gray;
+}
+.add-type-ol{
+    margin-left:30px;
+    margin-top:10px;
+}
+.add-type-loading{
+    margin-top:10px;
+    color:blue;
+    font-size:20px;
+}
+.add-item{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.at{
+    margin-bottom:20px;
+}
+.at-image{
+    padding:10px;
+    cursor: pointer;
+    border:1px dashed black;
+    border-radius: 7px;
+    margin-bottom:20px;
+}
+.upload-image{
+    margin-bottom:20px;
+}
+.at-name-text{
+    margin-bottom:20px;
+    width:250px;
+}
+.upload-btn{
+    padding:10px;
+    margin-bottom:20px;
+    cursor: pointer;
+}
+.upload-image-png{
+    width:300px;
+    border-radius:10px;
+    transition: transform 1s;
+}
+.add-item-img-upload-msg{
+    color:red;
+    margin-bottom:20px;
+}
+.update-auto{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:40px;
+}
+.update-container{
+    display:grid;
+    grid-gap:30px;
+    grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+    
+}
+.xa{
+    display:flex;
+    flex-direction: column;
+}
+.xab{
+    margin-bottom:10px;
+}
+.xac{
+    display: flex;
+    flex-direction: column;
+}
+.xac-input{
+    margin-bottom:10px;
+}
+.xac-btn{
+    margin-bottom:10px;
+    border-radius: 6px;
+    margin-bottom:10px;
+}
+.xad-image{
+    width:250px;
+    margin-bottom:10px;
+    border-radius: 7px;
+}
+.upload-image-png:hover{
+   transform: scale(3)    
+}
+.home-container{
+    display:grid;
+    grid-gap:30px;
+    grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+    padding-bottom:10px;
+    padding-left:10px;
+    padding-right:10px;
+}
+.empty{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    color:gray;
+    align-self: center;
+    margin-left:30px;
+}
+.cart{
+    width:100%;
+}
+.net{
+    padding:40px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    color:black;
+    font-weight:bold;
+    align-self: center;
+    margin-left:30px;
+}
+.home-loading{
+    font-family: 'Ubuntu', sans-serif;
+    padding:100px;
+    font-size:30px;
+    color:gray;
+    font-weight:bold;
+}
+.order-button {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 2px;
+    cursor: pointer;
+    border-radius: 30px;
+    box-shadow: 0px 8px 15px rgba(0,0,0,0.1);
+    transition: all 0.3s ease-in-out;
+  margin-left:100px;
+  margin-bottom: 150px;
+  }
+  
+  .order-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0px 15px 20px rgba(0,0,0,0.2);
+  }
+  .cart-display-container{
+    display:grid;
+    grid-gap:10px;
+    grid-template-columns: repeat(auto-fill,minmax(220px,1fr));
+    padding:10px;
+  }
+  .code-container{
+    display:grid;
+    grid-gap:10px;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    padding:30px;
+  }
+  .code-loading-ab{
+    font-family: 'Ubuntu', sans-serif;
+    padding:100px;
+    font-size:30px;
+    color:gray;
+    font-weight:bold;
+  }
+  .home-auto-filter{
+    margin:30px;
+  }
+
+

@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.a{
+    padding:40px;
+    display:flex;
+    flex-direction: column;
+}
+.aa{
+    font-family: 'Roboto', sans-serif;
+    color:red;
+    font-weight:bold;  
+    margin-bottom:20px;
+}
+.b{
+    display:grid;
+    grid-gap:10px;
+    grid-template-columns: repeat(auto-fill,minmax(220px,1fr));
+    padding-left:30px;
+    padding-top:30px;
+    padding-bottom:30px;
+}
+.ta{
+    margin-top:10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight:bold;
+    font-size:25px;
+    color:gray;
+}

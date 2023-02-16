@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.root{
+   width:220px;
+    display:flex;
+    flex-direction: column;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    padding:10px;
+}
+
+.image{
+    width:200px;
+    border-radius: 8px;
+}
+
+.title2{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight:bold;
+}
+.price2{
+    margin-top:5px;
+    font-family: 'Roboto', sans-serif;
+}
+.des2{
+    margin-top:5px;
+    font-family: 'Roboto', sans-serif;
+    font-size:13px;
+    color:gray;
+    font-weight:bold;
+    
+}
+.btn2{
+    width:fit-content;
+    font-family: 'Roboto', sans-serif;
+    background-color: #FF9900; 
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:10px;
+    padding-right:10px;
+    color: #FFFFFF;
+     border: none; 
+     border-radius: 5px; 
+     font-size: 14px;
+     margin-top:5px;
+     cursor: pointer;
+}
